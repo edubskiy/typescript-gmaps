@@ -1,6 +1,7 @@
 import faker from 'faker';
+import { Mappapble } from './Map';
 
-export class User {
+export class User implements Mappapble {
   name: string;
   location: {
     lat: number;

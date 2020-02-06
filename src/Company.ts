@@ -1,6 +1,7 @@
 import faker from 'faker';
+import { Mappapble } from './Map';
 
-export class Company {
+export class Company implements Mappapble {
   companyName: string;
   catchPhrase: string;
   location: {

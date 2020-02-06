@@ -1,6 +1,6 @@
 // Instructions to every other class
 // on how they can an argument to 'addMarker'
-interface Mappapble {
+export interface Mappapble {
   location: {
     lat: number;
     lng: number
